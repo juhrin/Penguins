@@ -1,0 +1,21 @@
+---
+name: "Penguins"
+navbar:
+  title: "Penguins"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Single trait distribution"
+      href: index.html
+    - text: "Relationship between multiple traits"
+      href: index.html
+    - text: "Sexual dimorphism"
+      href: index.html
+output_dir: "."
+output:
+  html_document:
+    theme: cerulean
+    highlight: textmate
+    toc: true 
+    toc_float: true
+---
