@@ -1,13 +1,5 @@
 ---
-left:
-    - text: "Home"
-      href: index.html
-    - text: "Single trait distribution"
-      href: index.html
-    - text: "Relationship between multiple traits"
-      href: index.html
-    - text: "Sexual dimorphism"
-      href: index.html
+
 ---
 
 ```{r setup, include=FALSE}
