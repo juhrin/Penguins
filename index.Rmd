@@ -1,5 +1,6 @@
 ---
-
+ html_document:
+    theme: cyborg
 ---
 
 ```{r setup, include=FALSE}
