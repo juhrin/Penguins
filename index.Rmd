@@ -1,5 +1,13 @@
 ---
-
+left:
+    - text: "Home"
+      href: index.html
+    - text: "Single trait distribution"
+      href: index.html
+    - text: "Relationship between multiple traits"
+      href: index.html
+    - text: "Sexual dimorphism"
+      href: index.html
 ---
 
 ```{r setup, include=FALSE}
@@ -8,6 +16,7 @@ library(palmerpenguins)
 library(tidyverse)
 ```
 
+website: https://juhrin.github.io/Penguins
 
 ## Data
 We are working on the penguins data set from this url: https://allisonhorst.github.io/palmerpenguins/
@@ -53,3 +62,4 @@ Q: What traits are sexually dimorphic in the penguins dataset? Is the level of s
   theme_dark()
 ```
 
+rmarkdown::render_site()
